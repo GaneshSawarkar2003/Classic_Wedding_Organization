@@ -4,6 +4,7 @@
     font-family: sans-serif;
 }
 .banner{
+    margin: 0px;
     width: 100;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./../Images/background.jpg);
@@ -40,18 +41,26 @@
     transition: 0.5%;
 }
 .navbar ul li:hover::after{
+    
     width: 100%;
 }
 .image{
     margin-top: 20px;
+    border: solid black 1px;
+    border-radius: 5px;
 }
 .col{
-    border: solid 3px black;
+   
+    margin-top: -30px;
+    border: solid 2px black;
     background-color: aliceblue;
+    height: 450px;
+   
     
 }
 .container{
     margin-left: 120px;
+   
 }
 h4{
     margin-top: 5px;
@@ -63,6 +72,7 @@ h4{
 @media (max-width:1200px){
  
     html{
+      
         font-size: 55%;
 
     }
@@ -86,4 +96,7 @@ h4{
 .contact{
     margin-left: -100px;
     margin-top: 100px;
+    width: 380px;
+    padding-left: 5px;
+    
 }
